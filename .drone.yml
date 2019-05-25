@@ -1,8 +1,13 @@
+---
 kind: pipeline
 name: default
 
+platform:
+  os: linux
+  arch: amd64
+
 steps:
 - name: democontainer
-  image: debian
+  image: debian:stable
   commands:
     - echo "Hello world!"
