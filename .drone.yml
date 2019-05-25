@@ -8,5 +8,6 @@ platform:
 
 steps:
     - name: test
-    image: golang:1.11
-    commands:
+      image: golang:1.11
+      commands:
+            - echo "Hello World!"
