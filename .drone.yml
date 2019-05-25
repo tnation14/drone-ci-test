@@ -6,6 +6,6 @@ platform:
   
 steps:
 - name: democontainer
-  image: debian:stable
+  image: debian
   commands:
     - echo "Hello world!"
