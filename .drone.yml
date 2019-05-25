@@ -2,8 +2,11 @@
 kind: pipeline
 name: linux-amd64
 
+platform:
+  os: linux
+  arch: amd64
+
 steps:
 - name: test
   image: golang:1.11
   commands:
-    - echo "Hello World!"
